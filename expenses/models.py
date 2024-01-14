@@ -23,7 +23,7 @@ class ExpenseParticipant(models.Model):
     share = models.DecimalField(max_digits=12, decimal_places=2)
     paid = models.BooleanField(default=False)
     utr_no = models.CharField(null=True, max_length=30)
-    image = models.FileField(path="static/")
+    receipt = models.FileField(upload_to='expense_receipts/', null=True, blank=True)
 
 class Balance(models.Model):
     debtor = models.ForeignKey(User, on_delete=models.CASCADE, related_name='debts')
