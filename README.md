@@ -5,6 +5,35 @@ This web application is designed to efficiently manage transaction between user 
 - [Demo Link](#demo-link)
 - [LinkedIn](https://www.linkedin.com/in/kumar-satyam-769340243/)
 
+  # Table of Contents
+
+
+  - [Task 1: Creating Splits](#task-1-creating-splits)
+  - [Task 2: Email to Pay the Share Weekly](#task-2-email-to-pay-the-share-weekly)
+  - [Task 3: Balance Management and Payment Verification](#task-3-balance-management-and-payment-verification)
+- [Prerequisites](#prerequisites)
+- [Libraries Used](#libraries-used)
+- [Setting up the Project](#setting-up-the-project)
+  - [Clone the Project](#clone-the-project)
+  - [Install Dependencies](#install-dependencies)
+  - [Apply Database Migrations](#apply-database-migrations)
+  - [Create a Superuser (Admin User)](#create-a-superuser-admin-user)
+  - [Run the Development Server](#run-the-development-server)
+  - [Setting up Celery](#setting-up-celery)
+  - [Run Database Migrations](#run-database-migrations)
+- [Important API Endpoints](#important-api-endpoints)
+- ["Celery Performing Interval-Based Email Sending"](#celery-performing-interval-based-email-sending)
+- [Design Pattern](#design-pattern)
+  - [User Profile Pattern](#user-profile-pattern)
+  - [Expense Management System](#expense-management-system)
+  - [Balance Calculation](#balance-calculation)
+- [Schema](#schema)
+  - [UserProfile](#userprofile)
+  - [Expense](#expense)
+  - [ExpenseParticipant](#expenseparticipant)
+  - [Balance](#balance)
+
+
 
 ## Problem Statements
 
