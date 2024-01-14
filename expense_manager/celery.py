@@ -14,3 +14,6 @@ celery_app.config_from_object('django.conf:settings', namespace='CELERY')
 
 # Autodiscover tasks in all installed apps.
 celery_app.autodiscover_tasks()
+
+
+# celery -A your_project worker -l info
