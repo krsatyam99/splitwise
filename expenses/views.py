@@ -188,3 +188,4 @@ def mark_expense_as_paid_api(request, expense_id):
         return Response({'message': 'Expense marked as paid successfully'}, status=status.HTTP_200_OK)
     
     return Response({'message': 'Invalid request method'}, status=status.HTTP_405_METHOD_NOT_ALLOWED)
+

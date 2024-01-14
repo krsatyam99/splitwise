@@ -41,6 +41,13 @@ INSTALLED_APPS = [
     'rest_framework',
      "django_celery_results",
     "django_celery_beat",
+    
+    'django_extensions',
+        'django_db_views',
+
+    # 'django.contrib.admin',
+    # Uncomment the next line to enable admin documentation:
+    # 'django.contrib.admindocs',
 ]
 
 CELERY_BEAT_SCHEDULER = 'django_celery_beat.schedulers:DatabaseScheduler'
