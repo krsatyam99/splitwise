@@ -10,24 +10,24 @@ This web application is designed to efficiently manage transaction between user 
 - [Prerequisites](#prerequisites)
 - [Libraries Used](#libraries-used)
 - [Setting up the Project](#setting-up-the-project)
-  - [Clone the Project]
-  - [Install Dependencies]
-  - [Apply Database Migrations]
-  - [Create a Superuser (Admin User)]
-  - [Run the Development Server]
-  - [Setting up Celery]
-  - [Run Database Migrations]
+  - Clone the Project
+  - Install Dependencies
+  - Apply Database Migrations
+  - Create a Superuser (Admin User)
+  - Run the Development Server
+  - Setting up Celery
+  - Run Database Migrations
 - [Important API Endpoints](#important-api-endpoints)
 - ["Celery Performing Interval-Based Email Sending"](#celery-performing-interval-based-email-sending)
 - [Design Pattern](#design-pattern)
-  - [User Profile Pattern](#user-profile-pattern)
-  - [Expense Management System](#expense-management-system)
-  - [Balance Calculation](#balance-calculation)
+  - User Profile Pattern
+  - Expense Management System
+  - Balance Calculation
 - [Schema](#schema)
-  - [UserProfile](#userprofile)
-  - [Expense](#expense)
-  - [ExpenseParticipant](#expenseparticipant)
-  - [Balance](#balance)
+  - UserProfile
+  - Expense
+  - ExpenseParticipant
+  - Balance
 
 
 
