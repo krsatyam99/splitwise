@@ -44,7 +44,7 @@ Task 3:Balance Management and payment verification.
 
 - Python
 - Django
-
+- Django Rest Framework
 
 ### Libraries Used
 
@@ -52,7 +52,7 @@ Task 3:Balance Management and payment verification.
 - Celery Beats
 - Redis
 - django-extension
-- 
+  
 ### Setting up the project
 ###### 1. Clone the project
 git clone https://github.com/krsatyam99/splitwise.git
